@@ -1,0 +1,11 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "Demo Node.js project for CI/CD with PM2 and GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
