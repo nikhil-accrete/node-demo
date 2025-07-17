@@ -1,11 +1,24 @@
 {
-  "name": "node-demo",
-  "version": "1.0.0",
-  "description": "Demo Node.js project for CI/CD with PM2 and GitHub Actions",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "author": "Your Name",
-  "license": "MIT"
+    "name": "node-demo",
+    "version": "1.0.0",
+    "description": "Demo Node.js project for CI/CD with PM2 and GitHub Actions",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "echo \"No tests yet\" && exit 0"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.0",
+        "express": "^4.21.2",
+        "helmet": "^8.1.0",
+        "morgan": "^1.10.0",
+        "path-to-regexp": "^6.2.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
 }
