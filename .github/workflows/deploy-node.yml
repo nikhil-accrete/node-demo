@@ -33,7 +33,7 @@ jobs:
             mkdir -p logs
             
             # Restart API with PM2
-            pm2 restart demo-app || pm2 start ecosystem.config.js
+            pm2 restart demo-app
             
             # Save PM2 configuration
             pm2 save
